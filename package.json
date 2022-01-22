@@ -1,0 +1,19 @@
+{
+  "name": "makarov_hw",
+  "version": "1.0.0",
+  "description": "Car sharing",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server",
+    "start:dev": "nodemon --ignore server/temp/ server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
